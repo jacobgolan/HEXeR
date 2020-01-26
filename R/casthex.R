@@ -1,7 +1,6 @@
 #' Extract hex color codes from image url
 #'
 #' @return A list of hex color codes
-#' @export
 #based on https://stackoverflow.com/questions/54412166/extracting-top-2-3-hex-colors-from-images-in-r/54412848
 getHexPrimaries <- function(img, pcnt.threshold = 0.05){
   
