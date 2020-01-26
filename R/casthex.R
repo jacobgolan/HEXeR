@@ -27,8 +27,8 @@ getHexPrimaries <- function(img, pcnt.threshold = 0.05){
 
 
 #' @export
-hex.list <- unique(unlist(lapply(team.logos, function(logo.url) {
+hex.list <- function(x) {unique(unlist(lapply(x, function(logo.url) {
   download.file(logo.url,'temp.png', mode = 'wb')
   img <- load.image('temp.png')
   getHexPrimaries(img)
-})))
+})))}
