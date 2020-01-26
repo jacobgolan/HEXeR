@@ -7,13 +7,13 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+Description: extract HEX codes from image urls
+License: Karl Marx
 Encoding: UTF-8
 LazyData: true
 Imports:
 	data.table (>= 1.9.4),
-	imager
+	imager,
 RoxygenNote: 7.0.2
 Suggests: 
     knitr,
