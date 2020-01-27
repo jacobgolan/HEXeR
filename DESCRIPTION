@@ -1,0 +1,16 @@
+Package: HEXeR
+Title: Extract HEX color codes from image URLs
+Version: 1.0.0
+Authors@R: 
+    person(given = "Jacob",
+           family = "Golan",
+           role = c("aut", "cre"),
+           email = "jolan@wisc.edu")
+Description: Extrcat HEXs
+License: Karl Marx
+Encoding: UTF-8
+LazyData: true
+Imports:
+	data.table (>= 1.9.4),
+	imager
+RoxygenNote: 7.0.2
